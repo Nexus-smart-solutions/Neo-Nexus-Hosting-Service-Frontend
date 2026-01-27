@@ -1,0 +1,253 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "promotion": "Promotion",
+    "benefit": "Benefit",
+    "testimonials": "Testimonial",
+    "about": "About",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "settings": "Settings",
+    "language": "Language",
+    "support": "Support",
+    "hosting": "Hosting",
+    "services": "Services"
+  },
+  "hosting": {
+    "title": "Our Cloud Hosting Solutions",
+    "subtitle": "Flexible, secure hosting for every type of project.",
+    "viewDetails": "View Details",
+    "cards": {
+      "cloud": {
+        "title": "Cloud Web Hosting",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.",
+        "tagline": "Speed, Security & Scalability."
+      },
+      "vps": {
+        "title": "VPS Hosting",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.",
+        "tagline": "Speed, Security & Scalability."
+      },
+      "dedicated": {
+        "title": "Dedicated Cloud",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.",
+        "tagline": "Speed, Security & Scalability."
+      },
+      "wordpress": {
+        "title": "WordPress Hosting",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.",
+        "tagline": "Speed, Security & Scalability."
+      },
+      "email": {
+        "title": "Business Email",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.",
+        "tagline": "Speed, Security & Scalability."
+      },
+      "domains": {
+        "title": "Domains",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.",
+        "tagline": "Speed, Security & Scalability."
+      }
+    }
+  },
+  "auth": {
+    "login": "Sign In",
+    "signup": "Register"
+  },
+  "hero": {
+    "title": "The best web hosting service for your website.",
+    "description": "Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat hendrerit lacus. In id nisi id neque venenatis molestie.",
+    "domainInput": "Enter your domain name",
+    "domainSelect": "Select a domain",
+    "search": "Search",
+    "offerTitle": ".Com + Hosting Only $50/mo",
+    "offerDescription": "Ut sed eros finibus, placerat orci id, dapibus mauris. Vestibulum consequat hendrerit lacus. In id nisi id neque venenatis molestie."
+  },
+  "pricing": {
+    "title": "Flexible for Every Need",
+    "cta": "Get started now"
+  },
+  "services": {
+    "hero": {
+      "title": "Cloud Web Hosting",
+      "subtitle": "Fast, secure & scalable hosting for your website",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit."
+    },
+    "features": {
+      "performance": {
+        "title": "Fast Performance",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit."
+      },
+      "security": {
+        "title": "Enhanced Security",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit."
+      },
+      "management": {
+        "title": "Easy Web Management",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit."
+      }
+    },
+    "perfectFor": {
+      "title": "Perfect for",
+      "startups": "Startups",
+      "smallBusiness": "Small Business",
+      "portfolio": "Portfolio"
+    },
+    "whyChoose": {
+      "title": "Why Choose Us?",
+      "uptime": "99.9% Uptime",
+      "backups": "Free Daily Backups",
+      "support": "24/7 Support"
+    }
+  },
+  "support": {
+    "title": "How can we help you?",
+    "subtitle": "Search our help center for articles, guides, and faqs.",
+    "searchPlaceholder": "Search for answers...",
+    "categories": {
+      "gettingStarted": "Getting Started",
+      "account": "Account & Billing",
+      "hosting": "Hosting & Domains",
+      "email": "Business Email",
+      "security": "Security & SSL",
+      "advanced": "Advanced Tools"
+    }
+  },
+  "features": {
+    "kicker": "Why businesses choose Nexus ERP",
+    "title": "Core Modules",
+    "subtitle": "Modules That Cover Every Aspect of Your Business.",
+    "cards": {
+      "finance": {
+        "title": "Finance & Accounting",
+        "description": "Handle invoices, expenses, approvals, and financial reports effortlessly."
+      },
+      "hr": {
+        "title": "HR & Payroll",
+        "description": "Automate attendance, salaries, deductions, and employee management in one dashboard."
+      },
+      "projects": {
+        "title": "Projects & Tasks",
+        "description": "Plan, track, and deliver projects with high accuracy and team visibility."
+      }
+    }
+  },
+  "contact": {
+    "kicker": "Talk to our team",
+    "title": "Ready to get started?\nLet’s Build Your Perfect ERP Together",
+    "subtitle": "Reach out to our team for demos, pricing, or any support — we’re here to help you every step of the way.",
+    "cta": "Contact us",
+    "imageAlt": "Business team discussing ERP strategy"
+  },
+  "transform": {
+    "title": "Transform Your Business With a Unified ERP Solution",
+    "subtitle": "Experience faster operations, smarter decisions, and complete visibility — all from one intelligent platform.",
+    "imageAlt": "Leaders discussing transformation strategy"
+  },
+  "whyChoose": {
+    "title": "Why Choose Our ERP?",
+    "subtitle": "Transform the way your business operates.",
+    "cta": "Learn more",
+    "cards": {
+      "platform": {
+        "title": "Unified Platform",
+        "description": "Manage accounting, HR, payroll, inventory, sales, and operations from one place."
+      },
+      "workflows": {
+        "title": "Customizable Workflows",
+        "description": "Tailor processes to match your business—no coding required."
+      },
+      "insights": {
+        "title": "Real-Time Insights",
+        "description": "Track performance with live dashboards and advanced analytics."
+      },
+      "security": {
+        "title": "Secure & Scalable",
+        "description": "Enterprise-grade security built for companies of all sizes."
+      }
+    }
+  },
+  "mobileApp": {
+    "title": "Your Business — Always in Your Pocket",
+    "subtitle": "Manage operations, track performance, and stay connected with your team anywhere, anytime through our powerful ERP mobile app.",
+    "imageAlt": "Person using mobile ERP dashboard",
+    "appStoreAlt": "Download on the App Store",
+    "googlePlayAlt": "Get it on Google Play"
+  },
+  "explore": {
+    "kicker": "Discover more",
+    "title": "Explore the Power of Our ERP",
+    "subtitle": "A connected system built to streamline every part of your business.",
+    "cards": {
+      "operations": {
+        "title": "Operations",
+        "description": "Gain unified visibility across supply chain, inventory, and fulfillment in real time.",
+        "imageAlt": "Operations dashboard showcasing logistics data"
+      },
+      "finance": {
+        "title": "Finance",
+        "description": "Track revenue, expenses, and forecasting with automated workflows and insights.",
+        "imageAlt": "Finance dashboard showing revenue analytics"
+      },
+      "people": {
+        "title": "People",
+        "description": "Empower every team with collaborative tools, HR automation, and transparent reporting.",
+        "imageAlt": "Team collaborating with ERP tools"
+      }
+    }
+  },
+  "vision": {
+    "kicker": "Our vision",
+    "title": "A Smarter Way to Run Your Business",
+    "subtitle": "We envision an ERP experience that simplifies operations, boosts efficiency, and gives every business the power to grow with clarity and confidence.",
+    "cta": "Read more",
+    "imageAlt": "Team planning the future of their business"
+  },
+  "footer": {
+    "usersCount": "Users and counting",
+    "subtext": "Modern service built for cloud hosting.",
+    "placeholder": "Your Email",
+    "cta": "Subscribe",
+    "socials": {
+      "label": "Follow us"
+    },
+    "columns": {
+      "product": {
+        "title": "Product",
+        "links": {
+          "modules": "Modules",
+          "features": "Features",
+          "pricing": "Pricing",
+          "demo": "Schedule a demo"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "links": {
+          "about": "About us",
+          "careers": "Careers",
+          "blog": "Blog"
+        }
+      },
+      "support": {
+        "title": "Support",
+        "links": {
+          "helpCenter": "Help Center",
+          "documentation": "Documentation",
+          "contact": "Contact"
+        }
+      },
+      "contactInfo": {
+        "title": "Contact info",
+        "links": {
+          "email": "Email",
+          "phone": "Phone",
+          "address": "Address"
+        }
+      }
+    },
+    "copy": "© {{year}} Nexus ERP. All rights reserved.",
+    "logoAlt": "Nexus ERP wordmark"
+  }
+}

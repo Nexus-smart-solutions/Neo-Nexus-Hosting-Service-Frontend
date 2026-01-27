@@ -1,0 +1,9 @@
+{
+  "bg": "https://erp-nexus.s3.us-east-2.amazonaws.com/Neo/BG.png",
+  "bg2": "https://erp-nexus.s3.us-east-2.amazonaws.com/Neo/BG2.png",
+  "benefits": "https://erp-nexus.s3.us-east-2.amazonaws.com/Neo/benifits.png",
+  "bitmap": "https://erp-nexus.s3.us-east-2.amazonaws.com/Neo/bitmap.png",
+  "feature6": "https://erp-nexus.s3.us-east-2.amazonaws.com/Neo/feature6.png",
+  "offer1": "https://erp-nexus.s3.us-east-2.amazonaws.com/Neo/offer1.png",
+  "whyBg": "https://erp-nexus.s3.us-east-2.amazonaws.com/Neo/whyBg.png"
+}
