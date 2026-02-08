@@ -10,31 +10,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1- سحب السورس من جيت هاب
+      # 1- سحب الكود
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 2- تثبيت Node.js
+      # 2- تثبيت Node
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
 
-      # 3- تثبيت البكجات
+      # 3- تثبيت المكتبات
       - name: Install deps
         run: npm install
 
-      # 4- عمل Build للمشروع
+      # 4- عمل Build
       - name: Build project
         run: npm run build
 
-      # 5- رفع الملفات للسيرفر (تم تصحيح القيم هنا)
+      # 5- الرفع للسيرفر (التعديل الجذري هنا)
       - name: Deploy to EC2
         uses: easingthemes/ssh-deploy@main
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          ARGS: "-rltgoDzvO --delete"
-          SOURCE: "dist/"
-          REMOTE_HOST: "18.216.109.78"
-          REMOTE_USER: "ec2-user"
-          TARGET: "/var/www/FRONTEND"
+        with:
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          remote_host: "18.216.109.78"
+          remote_user: "ec2-user"
+          source: "dist/"
+          target: "/var/www/FRONTEND"
+          args: "-rltgoDzvO --delete"
