@@ -10,11 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1- سحب السورس
+      # 1- سحب السورس من جيت هاب
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 2- تثبيت Node
+      # 2- تثبيت Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
@@ -24,18 +24,17 @@ jobs:
       - name: Install deps
         run: npm install
 
-      # 4- Build للفرونت
+      # 4- عمل Build للمشروع
       - name: Build project
         run: npm run build
 
-      # 5- رفع الملفات للسيرفر
+      # 5- رفع الملفات للسيرفر (تم تصحيح القيم هنا)
       - name: Deploy to EC2
-        uses: easingthemes/ssh-deploy@v4
-        with:
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          remote_host: "18.216.109.78"
-          remote_user: "ec2-user"
-          remote_port: 22
-          source: "dist/"  # تأكد إن الفولدر اللي بيطلع بعد الـ build اسمه dist وليس build
-          target: "/var/www/FRONTEND"
-          args: "-rltgoDzvO --delete"
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          ARGS: "-rltgoDzvO --delete"
+          SOURCE: "dist/"
+          REMOTE_HOST: "18.216.109.78"
+          REMOTE_USER: "ec2-user"
+          TARGET: "/var/www/FRONTEND"
